@@ -65,7 +65,7 @@ h1 span {
   border: 1px solid hsl(223, 87%, 60%);
 }
 
-button {
+#submit {
   font-size: 0.7rem;
   font-weight: 600;
   color: white;
@@ -77,12 +77,25 @@ button {
   transition: background-color 0.2s;
 }
 
-button:hover {
+#submit:hover {
   background-color: hsl(223, 87%, 70%);
 }
 
 #form {
+  position: relative;
+}
+
+#alert {
   margin-bottom: 2.8rem;
+  /* position: relative; */
+  width: 76%;
+  visibility: hidden;
+}
+
+#alert p {
+  color: hsl(354, 100%, 66%);
+  font-size: 0.7rem;
+  /* position: absolute; */
 }
 
 #img-section img {
