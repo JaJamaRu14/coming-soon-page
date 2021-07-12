@@ -180,7 +180,7 @@ h1 span {
 }
 
 /* Mobile screen */
-@media (max-width: 375px) {
+@media (max-width: 415px) {
   h3 {
     font-size: 1rem;
     margin-bottom: 2rem;
