@@ -1,5 +1,4 @@
 const emailInput = document.querySelector('#email');
-const submitBtn = document.querySelector('#submit');
 const form = document.querySelector('#form');
 const alertP = document.querySelector('#alert p');
 const alertDiv = document.querySelector('#alert');
@@ -29,32 +28,3 @@ function alertStyle(color, weight) {
   alertP.style.fontWeight = weight;
   emailInput.style.border = `1px solid ${color}`;
 }
-
-// const emailValidation = () => {
-//     if(this.value.match) {
-//         console.log("OK")
-//     } else {
-//         console.log("NO")
-//     }
-// }
-
-// const imgSection = document.querySelector('#img-section');
-// const form = document.querySelector('#form');
-// function addAlert() {
-//   const newDiv = document.createElement('p');
-//   // const alert = document.createTextNode("Whoops! It looks like you forgot to add your email");
-
-//   newDiv.innerText = 'Whoops! It looks like you forgot to add your email';
-//   // document.body.insertBefore(newDiv, imgSection);
-//   console.log(newDiv);
-//   form.appendChild(newDiv);
-// }
-// console.log(imgSection);
-
-// emailInput.addEventListener('click', () => {
-//   emailInput.classList.add('red');
-// });
-
-// emailInput.addEventListener('blur', () => {
-//     emailInput.classList.remove('red');
-// });
